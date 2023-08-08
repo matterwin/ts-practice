@@ -17,11 +17,9 @@ let colors: string[] = ['red', 'green', 'blue'];
 let myNumbers: number[] = [1,2,3];
 let truths: boolean[] = [true,false,true];
 
-// classes
-class Car{
-
-}
-let car: Car = new Car();
+// classes | had already declared Car but this works if that wasnt the issue
+// class Car {}
+// let car: Car = new Car();
 
 // object literal
 let point: { x: number; y: number; } = {
